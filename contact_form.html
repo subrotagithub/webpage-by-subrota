@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <!--Bootstrap Link-->
+     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+     <!--CSS Link-->
+     <link rel="stylesheet" href="contact_form.css"/>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Contact form </title>
+ </head>
+ <body id="bd">
+        <br><br>
+<center>
+    <div class="col-sm-12 col-md-14 w-50" id="text">
+        <b id="caption">Contact Me</b>
+</div>
+    <form action="mailto:itcommunication24@gmail.com " enctype="text/plain"  method="POST"  class="was-validated w-50" id="form">
+           <br>    
+    <div class="col-sm-12 col-md-14">
+        <label for="name" class="form-check-label">Name:</label>
+        <input type="text" name="name"id="border"   placeholder="Enter your valid name." class="form-control name" required/>
+        <div class="invalid-feedback alert-danger">Enter your name as soon as possible.</div>
+        <div class="valid-feedback alert-success">It's will be valid if you entered your valid name.</div>
+    </div>
+    <br><br>
+    <div class="col-sm-12 col-md-14">
+        <label for="name" class="form-check-label">Email:</label>
+<input type="email" name="email" id="border"   placeholder="something@gmail.com" class="form-control email" required/>
+        <div class="invalid-feedback alert-danger">Enter your email as soon as possible.</div>
+        <div class="valid-feedback alert-success">It's will be valid if you entered your valid email.</div>
+    </div>
+    <br><br>
+    <div class="col-sm-12 col-md-14">
+        <label for="textFiled" class="form-check-label"> Textfiled: </label>
+        <textarea name="text" id="border" rows="6" placeholder="Write your comment" class="form-control text" required></textarea>
+        </div>
+        <br><br>
+        <div class="col-sm-12 col-md-14">
+            <input type="submit"
+            value="SEND" name="send" id="click" class="form-control w-50 btn-outline-info"/>
+            </div>
+<br><br>
+<div class="col-sm-12 col-md-14">
+    <input type="reset" value="Delete" class="form-control w-50 btn-outline-danger"/>
+    </div>
+    <br>
+    <center>
+        &nbsp;  &nbsp;  &nbsp; 
+<input type="checkbox" id="check" class="form-check-input" required>
+        &nbsp;  &nbsp;  &nbsp; <label for="check" class="form-check-label">Agree to terms and conditions.</label>
+    </center>
+    <br>
+    <br>
+    <p style="color: rgb(216, 18, 77);">&copy; Copy write by Subrota Chandra Sharker .</p>
+    <br>
+    </form>
+</center>
+        <br><br>
+<script src="msg.js"></script>
+ </body>
+ </html>
